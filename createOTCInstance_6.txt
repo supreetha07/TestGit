@@ -1,0 +1,42 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:Convergys-Interface-ECA-OneTimeCharge-WSDL" xmlns:urn1="urn:Convergys-Interface-ECA-OneTimeCharge" xmlns:urn2="urn:Convergys-Interface-CommonIML" xmlns:urn3="urn:Convergys-Interface-ECA" xmlns:urn4="urn:Convergys-Interface-ECA-Account" xmlns:urn5="urn:Convergys-Interface-ECA-Address">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:createOTCInstance_6>
+         <urn1:accountPK>
+            <urn4:accountNum>:accountNumber</urn4:accountNum>
+         </urn1:accountPK>
+         <urn1:newOTCInstanceData>
+            <urn1:otcInstanceDtm>:otcDtm</urn1:otcInstanceDtm>
+            <urn1:otcInstanceCreatedDtm>:otcDtm</urn1:otcInstanceCreatedDtm>
+            <urn1:otcInstanceOTCId>7871</urn1:otcInstanceOTCId>
+            <urn1:otcInstanceMoney>100000</urn1:otcInstanceMoney>
+            <urn1:otcInstanceCPSId>3</urn1:otcInstanceCPSId>
+            <urn1:otcInstanceRevenueCodeId>636</urn1:otcInstanceRevenueCodeId>
+            <urn1:otcInstanceReceivableClassId>0</urn1:otcInstanceReceivableClassId>
+            <urn1:otcInstanceLabel>CreatedBySOAPUI</urn1:otcInstanceLabel>
+            <urn1:otcInstanceText>CreatedBySOAPUI</urn1:otcInstanceText>
+            <urn1:serviceAddressSeq>1</urn1:serviceAddressSeq>
+            <urn1:otcInstanceAttributeArray>
+               <!--Zero or more repetitions:-->
+               <urn1:a>
+                  <urn1:otcAttributeSubId>1</urn1:otcAttributeSubId>
+                  <urn1:attributeValue>CONSEL_010016000</urn1:attributeValue>
+               </urn1:a>
+               <urn1:a>
+                  <urn1:otcAttributeSubId>2</urn1:otcAttributeSubId>
+                  <urn1:attributeValue>Test</urn1:attributeValue>
+               </urn1:a>
+               <urn1:a>
+                  <urn1:otcAttributeSubId>14</urn1:otcAttributeSubId>
+                  <urn1:attributeValue>SERVICIOS CONTRATADOS (CTA)</urn1:attributeValue>
+               </urn1:a>
+               <urn1:a>
+                  <urn1:otcAttributeSubId>16</urn1:otcAttributeSubId>
+                  <urn1:attributeValue>NORMALES</urn1:attributeValue>
+               </urn1:a>
+            </urn1:otcInstanceAttributeArray>
+            <urn1:altCurrencyCode>UF</urn1:altCurrencyCode>
+         </urn1:newOTCInstanceData>
+      </urn:createOTCInstance_6>
+   </soapenv:Body>
+</soapenv:Envelope>

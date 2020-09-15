@@ -1,0 +1,22 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:C                           onvergys-Interface-ECA-Subscription-WSDL" xmlns:urn1="urn:Convergys-Interface-ECA-Subscription" xmlns:urn2="urn:Convergys-Interface-ECA-Account" xmlns:urn3="urn:Convergys-Interface-ECA-SubscriptionType" xmlns:urn4="urn:Convergys-Interface-ECA-BillingTariff" xmlns:urn5="urn:Convergys-Interface-ECA-SubscriptionType" xmlns:urn6="urn:Convergys-Interface-ECA-BudgetCentre" xmlns:urn7="urn:Convergys-Interface-ECA-BillingTariff" xmlns:urn8="urn:Convergys-Interface-ECA-Contact" xmlns:urn9="urn:Convergys-Interface-ECA-Contract" xmlns:urn10="urn:Convergys-Interface-ECA-Address">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:createSubscription_7>
+         <urn1:accountPK>
+            <urn2:accountNum>:acctNumber</urn2:accountNum>
+         </urn1:accountPK>
+         <urn1:newSubscriptionData>
+            <urn1:subscriptionRef>Sub_:acctNumber</urn1:subscriptionRef>
+            <urn1:subscriptionTypePK>
+               <urn5:subscriptionTypeId>:subscriptionId</urn5:subscriptionTypeId>
+            </urn1:subscriptionTypePK>
+            <urn1:startDtm>:startDate</urn1:startDtm>
+            <urn1:billingTariffPK>
+               <urn7:billingTariffId>:subBillingTariffId</urn7:billingTariffId>
+            </urn1:billingTariffPK>
+            <urn1:cpsId>:contractedPoSId</urn1:cpsId>
+            <urn1:subscriptionStatus>0</urn1:subscriptionStatus>
+         </urn1:newSubscriptionData>
+      </urn:createSubscription_7>
+   </soapenv:Body>
+</soapenv:Envelope>
